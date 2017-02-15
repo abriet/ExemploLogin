@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usuario">User</string>
+    <string name="senha">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="conectado">You it is logged!</string>
+    <string name="login_erro">O usuáro e/ou senha informado está incorreta!</string>
+    <string name="login_campo_vazio">Os campos de Usuário e/ou Senha estão vazios!</string>
+</resources>

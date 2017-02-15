@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Exemplo de Login</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="btn_login">Entrar</string>
+    <string name="conectado">Você Esta Logado!</string>
+    <string name="login_erro">O usuáro e/ou senha informado está incorreta!</string>
+    <string name="login_campo_vazio">Os campos de Usuário e/ou Senha estão vazios!</string>
 </resources>
