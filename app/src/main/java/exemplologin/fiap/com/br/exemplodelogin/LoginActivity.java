@@ -35,4 +35,9 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, getString(R.string.login_erro), Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void cadastrar(View v){
+        Intent t = new Intent(this, CadastrarActivity.class);
+        startActivity(t);
+    }
 }

@@ -6,4 +6,5 @@
     <string name="conectado">You it is logged!</string>
     <string name="login_erro">O usuáro e/ou senha informado está incorreta!</string>
     <string name="login_campo_vazio">Os campos de Usuário e/ou Senha estão vazios!</string>
+    <string name="btn_cadastrar">Register</string>
 </resources>
