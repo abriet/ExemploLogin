@@ -19,7 +19,7 @@
         <activity
             android:name=".CadastrarActivity"
             android:label="Cadastrar" />
-        <activity android:name=".GeradorActivity"></activity>
+        <activity android:name=".GeradorActivity" android:label="Gerador de Imagens"></activity>
     </application>
 
 </manifest>
