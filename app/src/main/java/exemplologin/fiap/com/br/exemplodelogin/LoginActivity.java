@@ -29,7 +29,8 @@ public class LoginActivity extends AppCompatActivity {
         if(user.trim().isEmpty() || senha.trim().isEmpty()){
             Toast.makeText(this, getString(R.string.login_campo_vazio), Toast.LENGTH_SHORT).show();
         }else if(user.equals("FIAP") && senha.equals("FIAP123")){
-            Intent t = new Intent(this, MainActivity.class);
+//            Intent t = new Intent(this, MainActivity.class);
+            Intent t = new Intent(this, GeradorActivity.class);
             startActivity(t);
         }else{
             Toast.makeText(this, getString(R.string.login_erro), Toast.LENGTH_SHORT).show();

@@ -16,10 +16,13 @@
         android:layout_height="220dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
-        android:src="@drawable/key"/>
+        android:src="@drawable/index"
+        android:id="@+id/imgView" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gerar"/>
+        android:text="@string/gerar"
+        android:onClick="Sorteador"
+        android:id="@+id/btnGerar"/>
 </LinearLayout>
